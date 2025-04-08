@@ -423,7 +423,6 @@ body {
   }
 
   .collection-author {
-    width: 450px;
     height: 60px;
   }
 
@@ -453,7 +452,8 @@ body {
 
 @media (max-width: 375px) {
   .img-paint-container {
-    padding: 50px 100px;
+    padding: 50px 10px;
+    left: 0;
   }
 
   .img-star {
@@ -556,6 +556,10 @@ body {
   align-items: flex-start;
 }
 
+.footer-mobile {
+  display: none;
+}
+
 .footer-wrapper {
   width: 1440px;
   display: flex;
@@ -623,6 +627,13 @@ body {
 }
 
 @media (max-width: 375px) {
+  .footer{
+    display: none;
+  }
+  .footer-mobile {
+    display: flex;
+  }
+
   .footer-wrapper {
     display: flex;
     flex-direction: column;
