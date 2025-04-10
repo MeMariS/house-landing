@@ -38,7 +38,7 @@ body {
   gap: 30px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   /* .header {
     background-color: #ffffff;
   } */
@@ -116,9 +116,9 @@ body {
   }
 
   .about {
-    width: 690px;
+    /* width: 690px; */
     height: 400px;
-    padding: 0 80px 0 80px;
+    padding: 0;
   }
 
   .information {
@@ -143,7 +143,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .img-bird {
     display: none;
   }
@@ -221,11 +221,10 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .reproduction-about {
     width: 384px;
     overflow-x: auto;
-    overflow-y: hidden;
   }
 
   .picture-container {
@@ -415,9 +414,10 @@ body {
   .collection-container {
     margin: 50px 0 50px 0;
     height: 502px;
+    width: 100%;
   }
   .img-paint-container {
-    height: 502px;
+    /* height: 502px; */
     left: -20%;
     padding: 80px 180px;
   }
@@ -427,9 +427,9 @@ body {
   }
 
   .collection {
-    width: 370px;
-    height: 60px;
-    font-size: 30px;
+    /* width: 370px;
+    height: 60px; */
+    font-size: 25px;
     line-height: 30px;
   }
 
@@ -450,7 +450,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .img-paint-container {
     padding: 50px 10px;
     left: 0;
@@ -527,7 +527,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .teams-container {
     display: flex;
     flex-direction: column;
@@ -577,6 +577,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 60px;
+  padding: 10px;
 }
 
 .link-color {
@@ -626,37 +627,43 @@ body {
   }
 }
 
-@media (max-width: 375px) {
-  .footer{
+@media (max-width: 425px) {
+  .footer {
     display: none;
   }
   .footer-mobile {
     display: flex;
+    background-color: #e1ede6;
   }
 
-  .footer-wrapper {
+  /* .footer-wrapper {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
   .topOfFrame {
     display: flex;
-    flex-direction: column;
+    padding: 10px 30px;
+    margin: 0;
     gap: 0;
   }
 
   .information-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 30px;
   }
 
-  .link-container {
+  .link-about {
+    max-width: 50%;
+  }
+
+  .social-container {
     display: flex;
     flex-direction: column;
-  }
-  .icon-social {
-    display: flex;
     align-items: center;
+    padding: 20px;
+    margin: 0 auto;
   }
 
   .social {
