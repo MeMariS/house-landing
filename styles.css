@@ -417,9 +417,7 @@ body {
     width: 100%;
   }
   .img-paint-container {
-    /* height: 502px; */
-    left: -20%;
-    padding: 80px 180px;
+    padding: 80px 50px;
   }
 
   .collection-author {
@@ -434,7 +432,6 @@ body {
   }
 
   .collection-about {
-    width: 620px;
     height: 182px;
     padding-bottom: 20px;
   }
@@ -452,8 +449,7 @@ body {
 
 @media (max-width: 425px) {
   .img-paint-container {
-    padding: 50px 10px;
-    left: 0;
+    padding: 50px;
   }
 
   .img-star {
@@ -462,27 +458,24 @@ body {
   }
 
   .collection {
-    width: 250px;
-    height: 40px;
     font-size: 25px;
     line-height: 25px;
   }
 
   .collection-about {
-    width: 330px;
     height: 220px;
     padding-bottom: 30px;
   }
 
   .collection-about-more {
-    height: 60px;
-    font-size: 17px;
-    line-height: 19px;
+    /* height: 60px; */
+    font-size: 15px;
+    line-height: 21px;
   }
 
   .collection-about-more,
   .padding {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
   }
 
   .btn-meet {
@@ -636,11 +629,6 @@ body {
     background-color: #e1ede6;
   }
 
-  /* .footer-wrapper {
-    display: flex;
-    flex-direction: column;
-  } */
-
   .topOfFrame {
     display: flex;
     padding: 10px 30px;
@@ -652,10 +640,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 30px;
+    gap: 0;
   }
 
   .link-about {
-    max-width: 50%;
+    width: 50%;
   }
 
   .social-container {
